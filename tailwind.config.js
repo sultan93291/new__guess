@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        rgba: "rgba(255,255,255,0.3)",
+        rgba: "",
       },
       screens: {
         mobile: "320px",
