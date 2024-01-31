@@ -89,7 +89,7 @@ guess === null || guess === void 0
                   player__error.innerHTML = "try agian";
                   if (remainChance === 0) {
                     if (img) {
-                      img.src = "../images/winner.png";
+                      img.src = "./images/winner.png";
                       if (input) {
                         input.style.display = "none";
                         if (player) {
@@ -120,7 +120,7 @@ guess === null || guess === void 0
                 ) === value
               ) {
                 if (img) {
-                  img.src = "../images/winner.png";
+                  img.src = "./images/winner.png";
                   if (input) {
                     input.style.display = "none";
                     if (player) {
